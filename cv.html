@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currículum Vitae</title>
+    <style>
+        /* Estilos para la barra de navegación */
+        nav ul {
+            list-style-type: none; /* Eliminar viñetas */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Usar flexbox para alinear elementos en fila */
+            background-color: #333; /* Color de fondo de la barra de navegación */
+        }
+    
+        nav li {
+            margin: 0;
+        }
+    
+        nav a {
+            display: block;
+            color: white; /* Color del texto */
+            text-align: center;
+            padding: 14px 20px; /* Espaciado interno */
+            text-decoration: none; /* Quitar subrayado */
+        }
+    
+        nav a:hover {
+            background-color: #575757; /* Color de fondo al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="autores_destacados.html">Autores Destacados</a></li>
+            <li><a href="clubes.html">Clubes</a></li>
+            <li><a href="curso.html">Curso</a></li>
+            <li><a href="lo_vendido.html">Lo más vendido</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="preguntas.html">FAQ</a></li>
+            <li><a href="cv.html">Mi CV</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="index.html">Novedades</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Currículum Vitae - Alejandra Kiara Justiniano Olmos</h1> <!-- mi curriculum -->
+        <img src="data:image/png;base64,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">
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Experiencia Laboral</h2> <!-- mi experiencia laboral -->
+            <h3>Profesora de introducción a la informatica</h3>
+            <h3>Profesora de TurboPascal</h3>
+            <h3>Profesora de MySQL</h3>
+            
+        </section>
+    <hr>   
+        <section>
+            <h2>Educación</h2> <!-- mi educacion -->
+            <h3>EET N° 3139 "Gral. M. M. de Güemes"-Tecnicatura en informatica Personal y Profesional</h3>
+        </section>
+    <hr>    
+        <section>
+            <h2>Habilidades</h2> <!-- mis habilidades blandas -->
+            <h3>Liderazgo</h3>
+            <h3>Puntual</h3>
+            <h3>Trabajo en equipo</h3>
+            <h3>Gestión del tiempo</h3>
+            <h3>Capacidad de aprendizaje</h3>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <section>
+            <h2>Contacto</h2> <!-- mi informacion de contacto -->
+            <address>
+              <strong>Crisol - Hecho por Alejandra Kiara Justiniano Olmos</strong><br>
+              La Rioja 1414<br>
+              Salta, Argentina<br>
+              Teléfono: 3875704663<br>
+              Correo electrónico: kiaraalejandrajustinianoolmos@gmail.com
+            </address>
+        </section>
+    </footer>
+</body>
+</html>
